@@ -131,6 +131,8 @@ STATIC_URL = '/static/'
 # awesome_website/settings.py
 
 LOGIN_REDIRECT_URL = "dashboard"
+LOGOUT_REDIRECT_URL = "dashboard" #redirect the user to localhost://dashboard when user logout otherwise
+#it redirect your to admin panel login page.
 
 EMAIL_HOST = "smtp.mailgun.org"
 EMAIL_PORT = 587
